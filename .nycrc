@@ -1,5 +1,5 @@
 {
   "all": false,
   "check-coverage": false,
-  "exclude": ["src/helpers/**/*.js"]
+  "exclude": ["src/helpers/**/*.js", "src/**/?(*.)+(spec|test).[jt]s?(x)"]
 }
