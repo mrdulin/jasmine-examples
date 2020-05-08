@@ -2,10 +2,7 @@
   "name": "jasmine-examples",
   "version": "1.0.0",
   "description": "Learning Jasmine test framework by examples",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "",
   "scripts": {
     "test": "jasmine --config=./jasmine.json",
     "coverage": "nyc npm run test"
@@ -23,6 +20,7 @@
   "homepage": "https://github.com/mrdulin/jasmine-examples#readme",
   "devDependencies": {
     "jasmine": "^3.5.0",
+    "jasmine-console-reporter": "^3.1.0",
     "jsdom": "^16.2.2",
     "nyc": "^15.0.1",
     "proxyquire": "^2.1.3"
