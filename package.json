@@ -23,6 +23,7 @@
     "jasmine-console-reporter": "^3.1.0",
     "jsdom": "^16.2.2",
     "nyc": "^15.0.1",
+    "prettier": "^2.0.5",
     "proxyquire": "^2.1.3"
   }
 }

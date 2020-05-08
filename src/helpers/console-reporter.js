@@ -11,5 +11,6 @@ const reporter = new JasmineConsoleReporter({
   beep: true,
 });
 
-jasmine.getEnv().clearReporters();
-jasmine.getEnv().addReporter(reporter);
+const jasmineEnv = jasmine.getEnv();
+jasmineEnv.clearReporters();
+jasmineEnv.addReporter(reporter);
