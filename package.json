@@ -23,6 +23,8 @@
   "homepage": "https://github.com/mrdulin/jasmine-examples#readme",
   "devDependencies": {
     "jasmine": "^3.5.0",
-    "nyc": "^15.0.1"
+    "jsdom": "^16.2.2",
+    "nyc": "^15.0.1",
+    "proxyquire": "^2.1.3"
   }
 }

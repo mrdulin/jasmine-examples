@@ -1,0 +1,5 @@
+{
+  "all": false,
+  "check-coverage": false,
+  "exclude": ["src/helpers/**/*.js"]
+}
