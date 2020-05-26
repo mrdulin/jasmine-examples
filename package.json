@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "test": "jasmine --config=./jasmine.json",
-    "coverage": "nyc npm run test"
+    "coverage": "nyc npm run test && nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/mrdulin/jasmine-examples#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
     "jasmine": "^3.5.0",
     "jasmine-console-reporter": "^3.1.0",
     "jsdom": "^16.2.2",
