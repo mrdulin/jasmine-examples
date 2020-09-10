@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "test": "ts-node node_modules/jasmine/bin/jasmine --config=./jasmine.json",
-    "coverage": "nyc npm run test && nyc report --reporter=html"
+    "coverage:html": "nyc npm run test && nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.672.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "rxjs": "^6.6.3"
   }
 }
