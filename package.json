@@ -1,23 +1,10 @@
 {
   "name": "jasmine-examples",
-  "version": "1.0.0",
   "description": "Learning Jasmine test framework by examples",
-  "main": "",
   "scripts": {
     "test": "ts-node node_modules/jasmine/bin/jasmine --config=./jasmine.json",
     "coverage:html": "nyc npm run test && nyc report --reporter=html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrdulin/jasmine-examples.git"
-  },
-  "keywords": [],
-  "author": "mrdulin <novaline.dulin@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mrdulin/jasmine-examples/issues"
-  },
-  "homepage": "https://github.com/mrdulin/jasmine-examples#readme",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.10.1",
     "@babel/preset-env": "^7.9.6",
